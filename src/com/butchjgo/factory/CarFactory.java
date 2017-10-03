@@ -1,13 +1,10 @@
 package com.butchjgo.factory;
 
-import com.butchjgo.abstractdemo.AbstractFactory;
-import com.butchjgo.abstractdemo.CakeFactory;
-import com.butchjgo.abstractdemo.CakeService;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class CarFactory extends AbstractFactory implements CarFactoryService {
+public class CarFactory implements CarFactoryService {
 
     private static final Logger LOGGER = Logger.getLogger("Car Factory");
 
